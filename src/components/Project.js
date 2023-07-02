@@ -14,7 +14,7 @@ function Project(){
 
     return(
       <main className="bg-green-100 min-h-screen p-12">
-        <section className="contaienr mx-auto">
+        <section className="container mx-auto">
           <h1 className="text-5xl flex justify-center cursive">Project Page</h1>
           <h2 className="text-lg text-gray-600 flex justify-center mb-12">Welcome to my project</h2>
           { 
@@ -25,7 +25,7 @@ function Project(){
               <h3 className="text-gray-800 text-3xl font-bold mb-2 
                 hover:text-red-700">
                 <a href={project.link} alt={project.title}
-                  target="_blank" rel="noopener nore">
+                  target="_blank" rel="noopener noreferrer">
                   {project.title}
                 </a>
               </h3>
@@ -49,7 +49,7 @@ function Project(){
                  hover:text-red-400 text-xl">
                   View The Project
                  </a>
-                 <span role="img" aria-aria-label="right pointer">👉</span>
+                 <span role="img">👉</span>
               </div>
             </article>
           </section>
